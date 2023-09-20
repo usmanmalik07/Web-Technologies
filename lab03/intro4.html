@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Html Forms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style4.css"
+</head>
+<body class="a" >
+        <div class = "background1" >
+                <nav>
+                        <div class = "iconbar_hor">
+                                <a href = "intro1.html" class="active"><h3>Intro</h3></a>
+                                <a href = "intro2.html" class="active"><h3>Education</h3></a>
+                                <a href = "intro3.html" class="active"><h3>Life</h3></a>
+                                <a href = "intro4.html" class="active"><h3>Forms</h3></a>
+                                <a href = "main.html" class="active"><h3>Main Page</h3></a> <br>
+                             </div>
+                    </nav>
+    <h2 >A Sample Form</h2>
+    <form action="/action_page.php">
+        <h2>Text Field</h2>
+        
+            <p>Create new account</p>
+            <label for="fname">Name</label>
+            <input type="text" id="name" name="name" placeholder="'Usman Malik'"><br>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="'user123@456example.com'"><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="5-6 characters"><br>
+            <input type="submit" value="Submit">
+        
+
+        
+        <h2 id="abc">City</h2>
+        
+            <p>where are you from?</p>
+            <label for="city">Choose a City:</label>
+            <select name="city" id="city">
+                <option value="isb">Islamabad</option>
+                <option value="mux">Multan</option>
+                <option value="lhr">Lahore</option>
+                <option value="kar">karachi</option>
+            </select>
+            <input type="submit">
+        
+        <p>Select your Gender</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+        
+
+        <h2>CheckBoxes</h2>
+        
+            <p>CHOOSE YOUR PROGRAM</p>
+            <input type="checkbox" id="cs" name="degree" value="cs">
+            <label for="cs">Computer Science</label><br>
+            <input type="checkbox" id="se" name="degree" value="se">
+            <label for="se">Software Eng.</label><br>
+            
+        
+
+        
+
+        <h2>Input Button</h2>
+            <input type="button" onclick="alert('ASSALAM U ALAIKUM  !')" value="Click THIS BUTTON!">
+        
+            <h2>Text Area</h2>
+        
+            <p>Tell about your self</p>
+            <textarea name="info" id="info" cols="30" rows="10"></textarea><br><br>
+            <input type="submit">
+        
+        <h2>The datalist element</h2>
+        
+            <label for="browser">Choose your browser from this list:</label>
+            <input type="browser" list="browser" id="browser">
+            <datalist></datalist>
+        
+        <h2>File Upload</h2>
+        
+            <p>Upload your worst picture</p>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            <input type="submit" value="Submit">
+        
+        
+        </div>
+    
+    </form>
+</body>
+</html>

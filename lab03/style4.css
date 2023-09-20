@@ -1,0 +1,34 @@
+/* * {
+    color: orange;
+    font-size: 16px;
+} */
+#abc{
+    text-align: left;
+}
+.abc: select{
+    margin: 10px;
+}
+.a[name]{
+    background-color: yellow;
+}
+[name="city"]{
+    background-color: yellow;
+}
+[class*="back"]{
+    background-color: coral;
+}
+[class~="ck"]{
+    background-color: blue;
+}
+div p {
+    background-color: azure;
+}
+div > p {
+    background-color: burlywood;
+}
+div ~ p {
+    background-color: cadetblue;
+}
+div + p {
+    background-color: cornflowerblue;
+}

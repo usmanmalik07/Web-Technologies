@@ -1,0 +1,22 @@
+table,th, td {
+    padding: 35px;
+    text-align: center;
+    margin: 5%;
+  }
+  .background1{
+    background-color: antiquewhite
+}
+.abc{
+    float: left
+}
+.bodya{
+    height: 660px;
+    width: 660px;
+}
+.bodyb{
+    height: 660px;
+    width: 660px;
+    float: right;
+    margin: 0%;
+    
+}

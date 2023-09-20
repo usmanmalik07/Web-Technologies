@@ -1,0 +1,45 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+
+.iconbar_hor {
+    width: 100%;
+    background-color: darkgray;
+    overflow: auto;}
+.iconbar_hor a
+ {
+width: 20%;
+height: 20%;
+text-align: center;
+float: left ;
+text-align: center;
+padding: 15px 0 ;
+color: white;
+font-size: 36px;
+background-color:#04aa60
+}
+
+.iconbar_hor a:hover {background-color: #000;}
+.active{background-color: #04aa60 ;}
+main { 
+    margin: 10px;
+     background-color: #04aa60;
+}
+.background1{
+    background-color: antiquewhite
+}
+.imggg{
+    text-align: center;
+}
+.h33{
+    text-align: left;
+}
+.h22{
+    text-align: center;
+}
+.p22{
+    align: left;
+}.h11{
+    text-align: center;
+}
+.ab{
+    text-align: center;
+}
